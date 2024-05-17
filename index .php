@@ -70,8 +70,6 @@ abstract class Dog extends Mammal {
     }
 }
 
-require_once __DIR__ . '/mammal.php';
-
 abstract class Elephant extends Mammal {
     private float $tuskLength;
 
